@@ -2,7 +2,8 @@ import { PhonebookForm, PhonebookFormContainer, PhonebookFormLabel, PhonebookFor
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { useDispatch  } from "react-redux";
-import { addContact, selectContacts } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
+import { selectContacts } from "../../redux/contactsSlice";
 import { useId } from "react";
 import { useSelector } from "react-redux";
 
